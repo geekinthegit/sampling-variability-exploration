@@ -59,4 +59,4 @@ Whether a new Δκ falls within the original confidence interval is not a criter
 
 ## Learning Notes
 
-- [01. Accuracy and Cohen's κ](01-accuracy-and-kappa.md)
+- [01. Accuracy and Cohen's κ](notes/01-accuracy-and-kappa.md)
