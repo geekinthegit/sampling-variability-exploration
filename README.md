@@ -1,4 +1,4 @@
-# Statistics Learning Notes
+# Statistical Exploration
 
 이 노트는 기존 `coding-manual-ablation` 연구의 데이터를 활용해 통계 개념을 직접 실험하며 이해하기 위한 학습 기록이다. 기존 연구의 분석계획이나 결과를 변경하는 작업과는 별개로 진행한다.
 
