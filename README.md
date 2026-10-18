@@ -16,4 +16,4 @@
 
 ## 학습 노트
 
-- [01. Accuracy and Cohen's κ](../note/01-accuracy-and-kappa.md)
+- [01. Accuracy and Cohen's κ](../notes/01-accuracy-and-kappa.md)
