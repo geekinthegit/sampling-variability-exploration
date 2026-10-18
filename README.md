@@ -4,7 +4,7 @@ This project explores statistical concepts using data from my completed [coding-
 
 The goal is to deepen my statistical understanding by changing conditions, observing results, and examining their interpretations and limitations.
 
-These experiments are separate from the original research. They are not part of its prespecified protocol, analyses, or findings. They do not modify the original study or its conclusions.
+These experiments are separate from the original research. They are not part of its prespecified protocol, analyses, or findings. They do not change the original study's prespecified analyses or reported results.
 
 All numerical results in this repository are for learning purposes and should not be cited as research findings.
 
