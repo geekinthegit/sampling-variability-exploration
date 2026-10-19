@@ -14,7 +14,7 @@ The experiments are ordered so that concepts learned in earlier steps can be app
 
 | No. | Experiment Question | Concepts | New API Calls |
 | --- | --- | --- | --- |
-| 01 | Why do exact agreement and Cohen's κ change differently? | Observed agreement, expected agreement, Cohen's κ | None |
+| 01 | Why do observed agreement and Cohen's κ change differently? | Observed agreement, expected agreement, Cohen's κ | None |
 | 02 | How do predictions for the same utterance change across conditions? | Paired data, label transitions, classification errors | None |
 | 03 | What distribution of estimates produces a bootstrap confidence interval? | Bootstrap distribution, confidence interval | None |
 | 04 | How do estimates and confidence interval widths change with sample size? | Sampling variability, precision, sample size | None |
@@ -30,4 +30,6 @@ For Experiment 07, the sample size and analysis plan will be determined and docu
 
 ## Experimental Results
 
-Results will be linked here as the experiments are completed. All findings remain exploratory and separate from the original study.
+- [Experiment 01 — Accuracy vs. Cohen's κ](experiments/01-accuracy-vs-kappa/experiment.ipynb)
+
+Additional results will be linked here as experiments are completed. All findings remain exploratory and separate from the original study.
