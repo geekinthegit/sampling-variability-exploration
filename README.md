@@ -17,16 +17,15 @@ The experiments are ordered so that concepts learned in earlier steps can be app
 | 01 | Why do observed agreement and Cohen's κ change differently? | Observed agreement, expected agreement, Cohen's κ | None |
 | 02 | How do predictions for the same utterance change across conditions? | Paired data, label transitions, classification errors | None |
 | 03 | What distribution of estimates produces a bootstrap confidence interval? | Bootstrap distribution, confidence interval | None |
-| 04 | How do estimates and confidence interval widths change with sample size? | Sampling variability, precision, sample size | None |
-| 05 | How much do results change when the same 300 utterances are tested again? | Model response variability, repeatability | 5,400 initial calls plus tie-breaking |
-| 06 | How can sample size be determined before an experiment? | Power analysis, precision-based planning, simulation | None |
-| 07 | Are results similar in new samples? What happens with larger samples? | Replication, sampling variability, precision | 18 × planned n, plus tie-breaking |
+| 04 | How much do results change when the same 300 utterances are tested again? | Model response variability, repeatability | 5,400 initial calls plus tie-breaking |
+| 05 | How can sample size be determined before an experiment? | Power analysis, precision-based planning, simulation | None |
+| 06 | Are results similar in new samples? How do estimates and interval widths change with sample size? | Replication, sampling variability, precision, sample size | 18 × planned n per new sample, plus tie-breaking |
 
-Experiments 01–04 use existing data. Experiment 05 requires new API calls.
+Experiments 01–03 use existing data. Experiment 04 requires new API calls on the original 300 utterances.
 
-Experiment 06 uses the paired label patterns observed in the original 300 utterances, together with the results of Experiments 03–05, to simulate sample-size requirements under different assumptions. It compares power-based and precision-based planning.
+Experiment 05 uses the paired label patterns observed in the original 300 utterances, together with the results of Experiments 03 and 04, to simulate sample-size requirements under different assumptions. It compares power-based and precision-based planning. The number of new samples, the conditions to run, and the stopping rule for Experiment 06 are decided here and documented before any new data are collected.
 
-For Experiment 07, the sample size and analysis plan will be determined and documented before collecting new data.
+Experiment 06 draws new samples of 300 utterances from the remaining sampling frame and runs them with the original procedure. Each new sample is a replication at n = 300; the pooled samples are used to examine how estimates and interval widths change with sample size, replacing a separate subsampling experiment within the original 300.
 
 ## Experimental Results
 
