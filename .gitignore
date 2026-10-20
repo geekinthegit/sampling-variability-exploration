@@ -1,2 +1,4 @@
 .DS_Store
 __pycache__/
+experiments/04-same-sample-rerun/runs/*/prompts.jsonl
+experiments/04-same-sample-rerun/runs/*/run.lock
