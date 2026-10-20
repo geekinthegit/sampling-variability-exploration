@@ -1,0 +1,73 @@
+{
+ "run_id": "rerun-2026-10-20",
+ "pass": 2,
+ "created_at": "2026-10-20T08:31:39.926338+00:00",
+ "seed": 20260919,
+ "model": "gpt-5.5-2026-04-23",
+ "request_params": {
+  "model": "gpt-5.5-2026-04-23",
+  "temperature": 0,
+  "reasoning_effort": "none",
+  "max_completion_tokens": 64,
+  "response_format": {
+   "type": "json_schema",
+   "json_schema": {
+    "name": "talkmove_category",
+    "strict": true,
+    "schema": {
+     "type": "object",
+     "properties": {
+      "category": {
+       "type": "string",
+       "enum": [
+        "Not coded",
+        "Keeping Everyone Together",
+        "Getting Students to Relate",
+        "Restating",
+        "Revoicing",
+        "Pressing for Accuracy",
+        "Pressing for Reasoning"
+       ]
+      }
+     },
+     "required": [
+      "category"
+     ],
+     "additionalProperties": false
+    }
+   }
+  }
+ },
+ "sdk_settings": {
+  "max_retries": 0,
+  "timeout": 60.0
+ },
+ "concurrency": 4,
+ "failure_threshold": 10,
+ "backoff": {
+  "initial": 2.0,
+  "max": 60.0,
+  "jitter": "equal: base/2 + U(0, base/2), base = initial*2^(attempt-1) capped at max"
+ },
+ "prompts_sha256": "4b64c681a9744e37111e26ff00822799d592922f1744f70e5577b75aba1a5140",
+ "input_file": {
+  "path": "/Users/jeobnida/coding-manual-ablation/samples/main_targets.csv",
+  "sha256": "18ec7cd05b472fb26cbf64c983a9f84614a58dc26a7ec7f4f5b7329fd19553fe"
+ },
+ "git_commit": "fabcbbf35688e1907ef4b6d342436bbfff97b3ca",
+ "openai_version": "3.8.0",
+ "python_version": "3.13.9",
+ "n_calls": 1,
+ "attempts_pass1_sha256": "c70683bbc33e5f91d2526a5e7e67191fa55d4c826b1b2ffc60ba2960c8b622e0",
+ "final_labels_sha256": "1eb847850ecca0755cae17db842969e99b8402a81d6c5400a1e01ec1e69ae590",
+ "parse_attempts_git_commit": "fabcbbf35688e1907ef4b6d342436bbfff97b3ca",
+ "n_tie_pairs": 1,
+ "calls": [
+  {
+   "order_index": 0,
+   "utterance_id": 103725,
+   "condition": "exclusion_rule_replacement",
+   "repeat": 4
+  }
+ ]
+}
